@@ -85,7 +85,7 @@ public class Main {
     }
 
     public static void showChosenFilmHide(Character[] chosenFilmHide) {
-        System.out.println("Odgadnij tytuł film: ");
+        System.out.println("Odgadnij tytuł filmu: ");
         for (int i = 0; i < chosenFilmHide.length; i++) {
             System.out.print(chosenFilmHide[i]);
         }   System.out.println();
